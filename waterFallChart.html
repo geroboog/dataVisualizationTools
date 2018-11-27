@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+    <title>waterFallChart</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="bookmark" href=" favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+</head>
+<body>
+<div class="swiper-container" id="swiperDiv">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide page-inc">
+
+            <div class="inc-ct">
+                <section class="inc-ctbox tab-pane" identification="broadband">
+                    <div class="k-sf2 clearfix">
+                        <p class="inc-tit">waterfall click the pillar</p>
+                        <div class="inc-charts" id="yd-charts4"></div>
+                        <div class="k-tb">
+                            <div class="k-tb2">
+                                <div class="clearfix fl">
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix fr">
+                                    <p>all</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="k-sf2 clearfix">
+                        <p class="inc-tit">waterfall click the pillar</p>
+                        <div class="inc-charts" id="yd-charts5"></div>
+                        <div class="k-tb">
+                            <div class="k-tb2">
+                                <div class="clearfix fl">
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix fr">
+                                    <p>all</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="k-sf2 clearfix">
+                        <p class="inc-tit">waterfall click the pillar</p>
+                        <div class="inc-charts" id="yd-charts6"></div>
+                        <div class="k-tb">
+                            <div class="k-tb2">
+                                <div class="clearfix fl">
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix fr">
+                                    <p>all</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div></div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script src="js/jquery.js"></script>
+<script src="js/jQuery.md5.js"></script>
+<script src="js/colunmChar.js"></script>
+
+<script language="JavaScript">
+    pram=[{"serviceCode":1,"serviceData":100000,"serviceName":"1","serviceState":"add"},{"serviceCode":1,"serviceData":40000,"serviceName":"1","serviceState":"add"},{"serviceCode":1,"serviceData":500,"serviceName":"1","serviceState":"subtract"},{"serviceCode":1,"serviceData":30000,"serviceName":"1","serviceState":"add"},{"serviceCode":"all","serviceData":169500,"serviceName":"1","serviceState":"add"}];
+    pram2=[{"serviceCode":1,"serviceData":100000,"serviceName":"1","serviceState":"add"},{"serviceCode":1,"serviceData":40000,"serviceName":"1","serviceState":"add"},{"serviceCode":1,"serviceData":500,"serviceName":"1","serviceState":"add"},{"serviceCode":1,"serviceData":30000,"serviceName":"1","serviceState":"add"},{"serviceCode":"all","serviceData":170000,"serviceName":"1","serviceState":"add"}];
+    pram3=[{"serviceCode":1,"serviceData":100000,"serviceName":"1","serviceState":"subtract"},{"serviceCode":1,"serviceData":40000,"serviceName":"1","serviceState":"subtract"},{"serviceCode":1,"serviceData":500,"serviceName":"1","serviceState":"subtract"},{"serviceCode":1,"serviceData":30000,"serviceName":"1","serviceState":"subtract"},{"serviceCode":"all","serviceData":169500,"serviceName":"1","serviceState":"subtract"}];
+
+    drowColunm(pram,'yd-charts4',2,' ');
+    drowColunm(pram2,'yd-charts5',2,' ');
+    drowColunm(pram3,'yd-charts6',2,' ');
+</script>

@@ -1,0 +1,935 @@
+@media (min-width: 1024px) and (max-width: 1280px) {
+  html,body {
+    font-size: 41.6% !important;
+    /*background: #000;*/
+  }
+  .lb-tit {
+    margin: 130px 0 1rem 1rem;
+  }
+  .rb-tit {
+    margin: 130px 0 1rem 1rem;
+  }
+  .b-tit {
+    margin-left: 1.1rem;
+  }
+  .news .b-tit {
+    margin-left: 2rem;
+  }
+  .b-tit:before {
+    width: .4rem;
+    height: 1.5rem;
+    left: -1rem;
+  }
+  .cli-tab li {
+    font-size: 2.5rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: .5rem;
+  }
+  .info-box ul li {
+    height: 6rem;
+  }
+  .info-box ul li a img {
+    width: 8rem;
+  }
+  .info-list {
+    margin-bottom: 0;
+  }
+  .cli-tab_s {
+    padding-left: 2.6rem;
+  }
+  .cli-tab_s li:before {
+    width: 1.2rem;
+    height: 1.2rem;
+    left: 2.8rem;
+    top: 45% !important;
+  }
+  .operator ul li {
+    margin-bottom: 0;
+  }
+  .sj-rTbox {
+    padding-top: 1.5rem;
+    /*margin-bottom: 1rem;*/
+    height: 45%;
+  }
+  .sj-rBbox {
+    height: 50%;
+    padding: .5rem 1rem 0;
+  }
+  .info-sd li:not(:last-of-type):after {
+    height: .01rem;
+    border-bottom: 0.04rem solid rgba(0, 219, 255, .15);
+  }
+  .info-list_s:not(:last-of-type):after {
+    width: .01rem;
+    border-bottom: 0.04rem solid rgba(0, 219, 255, .15);
+  }
+  .mod-close {
+    width: 3.2rem;
+    height: 3.32rem;
+    right: -2.6rem;
+    top: -2.8rem;
+  }
+  .mod-box-b .mod-close {
+    right: -2.4rem;
+    top: -2.8rem;
+  }
+  .sj-rBbox ul p {
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+    margin-bottom: 0;
+  }
+  .sj-rBbox ul li span {
+    font-size: 1.8rem;
+  }
+  .surbox {
+    width: 25%;
+    height: 100%;
+    margin-left: 30px;
+  }
+  .sj-lBox {
+    margin-left: 0;
+  }
+  .sj-cbox {
+    width: 45%;
+  }
+  .sj-lr {
+    width: 100%;
+    height: 72%;
+  }
+  .info-list {
+    margin-bottom: 1rem;
+  }
+  .newsBox {
+    height: 76%;
+    margin-top: 130px;
+  }
+  .info-list_s li,
+  .info-sd li {
+    height: 2rem;
+    line-height: 2rem;
+  }
+  .info-sd li:last-of-type {
+    height: 8rem;
+    line-height: 8rem;
+  }
+  .sj-lbox ul li a {
+    font-size: 2.2rem;
+  }
+  .news-listbox {
+    padding: 0 1rem 1rem;
+  }
+  .sj-lbox ul li {
+    padding: 1rem 0;
+  }
+  .sj-lbox ul li a img {
+    height: 8rem;
+  }
+  .sj-lbox ul li a.pic-tit p {
+    height: 8rem;
+  }
+  .news-pic .news-tit p {
+    font-size: 2.5rem;
+  }
+  .inc-clibox {
+    height: 5rem;
+  }
+  .inc-clibox div:first-of-type {
+    width: 8.5rem;
+    line-height: 5rem;
+    font-size: 2.2rem;
+  }
+  .inc-clibox div:last-of-type p span:first-of-type {
+    margin-top: 1.1rem;
+  }
+  .inc-clibox div:last-of-type p .nk {
+    left: 3.1rem;
+  }
+  .inc-clibox div:last-of-type p .nk:nth-of-type(2) {
+    left: 4.9rem;
+  }
+  .inc-clibox div:last-of-type p .nk:nth-of-type(3) {
+    left: 6.6rem;
+  }
+  .inc-nav {
+    height: 5.5rem;
+    margin-bottom: 2rem;
+  }
+  .inc-ct {
+    height: 82%;
+  }
+  .msg {
+    font-size: 3.4rem;
+  }
+  .btn {
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+    width: 12rem;
+    height: 3rem;
+    line-height: 3.4rem;
+  }
+  .sr-ct-tb {
+      margin-top: 19.2%;
+  }
+  .legend {
+    font-size: 1.5rem;
+  }
+  .inc-nav li.current:before {
+    width: 20rem;
+    height: 10rem;
+    left: 28.5%;
+  }
+  .inc-tit:before {
+    height: 2.5rem;
+    left: -10%;
+    top: 82%;
+  }
+  .inc-charts {
+    height: 78%;
+  }
+  .k-tb {
+    font-size: 2.2rem;
+    height: 4rem;
+  }
+  .k-tb1 {
+    line-height: 4rem;
+  }
+  .k-hp {
+    margin-top: 1.5rem;
+  }
+  .k-tb2 {
+    font-size: 2.2rem;
+  }
+  .k-tb2 > div:last-of-type {
+    line-height: 4rem;
+  }
+  .k-tb2 > div:first-of-type ul {
+    line-height: 2rem;
+  }
+  .k-sf4 .k-tb2 div:last-of-type,
+  .kd-city .k-tb1 li:last-of-type,
+  .lh_jz {
+    line-height: 2rem;
+  }
+  .logo_box{
+    width: 50rem;
+    height: 14rem;
+    left: 3rem;
+    top: 1.5rem;
+  }
+  .reg-list {
+    height: 41.5%;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1366px) {
+  html,body {
+    font-size: 41.6% !important;
+  }
+  .lb-tit {
+    margin: 130px 0 1rem 1rem;
+  }
+  .rb-tit {
+    margin: 130px 0 1rem 1rem;
+  }
+  .b-tit {
+    margin-left: 1.1rem;
+  }
+  .news .b-tit {
+    margin-left: 2rem;
+  }
+  .b-tit:before {
+    width: .4rem;
+    height: 1.5rem;
+    left: -1rem;
+  }
+  .cli-tab li {
+    font-size: 2.5rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: .5rem;
+  }
+  .info-box ul li {
+    height: 6rem;
+  }
+  .info-box ul li a img {
+    width: 8rem;
+  }
+  .info-list {
+    margin-bottom: 0;
+  }
+  .cli-tab_s {
+    padding-left: 2.6rem;
+  }
+  .cli-tab_s li:before {
+    width: 1.2rem;
+    height: 1.2rem;
+    left: 1.4rem;
+    top: 53% !important;
+  }
+  .operator ul li {
+    margin-bottom: 0;
+  }
+  .sj-rTbox {
+    padding-top: 0rem;
+    margin-bottom: 1rem;
+    height: 54%;
+  }
+  .cli-tab_s li {
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+  }
+  .info-sd li:not(:last-of-type):after {
+    width: 25rem;
+  }
+  .sj-rBbox {
+    height: 38%;
+    padding: .5rem 1rem 0;
+  }
+  .info-sd li:not(:last-of-type):after {
+    height: .01rem;
+    border-bottom: 0.04rem solid rgba(0, 219, 255, .15);
+  }
+  .info-list_s:not(:last-of-type):after {
+    width: .01rem;
+    border-bottom: 0.04rem solid rgba(0, 219, 255, .15);
+  }
+  .mod-close {
+    width: 3.2rem;
+    height: 3.32rem;
+    right: -2.6rem;
+    top: -2.8rem;
+  }
+  .mod-box-b .mod-close {
+    right: -2.4rem;
+    top: -2.8rem;
+  }
+  .sj-rBbox ul p {
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+    margin-bottom: 0;
+  }
+  .sj-rBbox ul li span {
+    font-size: 1.8rem;
+  }
+  .surbox {
+    width: 25%;
+    height: 100%;
+    margin-left: 30px;
+  }
+  .sj-lBox {
+    margin-left: 0;
+  }
+  .sj-cbox {
+    width: 45%;
+  }
+  .sj-lr {
+    width: 100%;
+    height: 72%;
+  }
+  .info-list {
+    margin-bottom: .5rem;
+  }
+  .newsBox {
+    height: 76%;
+    margin-top: 130px;
+  }
+  .info-list_s li,
+  .info-sd li {
+    height: 2rem;
+    line-height: 2rem;
+  }
+  .info-sd li:last-of-type {
+    height: 8rem;
+    line-height: 8rem;
+  }
+  .sj-lbox ul li a {
+    font-size: 2.2rem;
+  }
+  .news-listbox {
+    padding: 0 1rem 1rem;
+  }
+  .sj-lbox ul li {
+    padding: 1rem 0;
+  }
+  .sj-lbox ul li a img {
+    height: 6rem;
+  }
+  .sj-lbox ul li a.pic-tit p {
+    height: 6rem;
+  }
+  .news-pic .news-tit p {
+    font-size: 2.5rem;
+  }
+  .inc-clibox {
+    height: 4rem;
+  }
+  .inc-clibox div:first-of-type {
+    width: 7rem;
+    line-height: 4rem;
+    font-size: 2.2rem;
+  }
+  .inc-clibox div:last-of-type p span:first-of-type {
+    margin-top: 1.1rem;
+  }
+  .inc-clibox div:last-of-type p .nk {
+    width: 1.2rem;
+    height: 1.6rem;
+  }
+  .inc-clibox div:last-of-type p .nk {
+    left: 2.7rem;
+  }
+  .inc-clibox div:last-of-type p .nk:nth-of-type(2) {
+    left: 4.2rem;
+  }
+  .inc-clibox div:last-of-type p .nk:nth-of-type(3) {
+    left: 5.7rem;
+  }
+  .legend p:before {
+    top: 13%;
+    left: -26%;
+  }
+  .inc-nav {
+    height: 6rem;
+    margin-bottom: 2rem;
+  }
+  .inc-ct {
+    height: 82%;
+  }
+  .msg {
+    font-size: 3.2rem;
+  }
+  .btn {
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+    width: 14rem;
+    height: 3rem;
+    line-height: 3rem;
+  }
+  .legend {
+    font-size: 1rem;
+  }
+  .inc-nav li.current:before {
+    width: 20rem;
+    height: 10rem;
+    left: 24.5%;
+  }
+  .inc-tit:before {
+    height: 1.8rem;
+    left: -15%;
+    top: 60%;
+  }
+  .inc-charts {
+    height: 78%;
+  }
+  .sr-ct-tb {
+    margin-top: 18.3%;
+  }
+  .k-tb {
+    font-size: 2.2rem;
+    height: 4rem;
+  }
+  .k-tb1 {
+    line-height: 4rem;
+  }
+  .k-hp {
+    margin-top: 1.5rem;
+  }
+  .k-tb2 {
+    font-size: 2.2rem;
+  }
+  .k-tb2 > div:last-of-type {
+    line-height: 4rem;
+  }
+  .k-tb2 > div:first-of-type ul {
+    line-height: 2rem;
+  }
+  .k-sf4 .k-tb2 div:last-of-type,
+  .kd-city .k-tb1 li:last-of-type,
+  .lh_jz {
+    line-height: 2rem;
+  }
+  .lh2 {
+    line-height: 4rem;
+  }
+  .logo_box{
+    width: 50rem;
+    height: 14rem;
+    left: 3rem;
+    top: 1.5rem;
+  }
+  .reg-list {
+    height: 41.5%;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1440px) {
+  html,body {
+    font-size: 41.6% !important;
+  }
+  .lb-tit {
+    margin: 130px 0 1rem 1rem;
+  }
+  .rb-tit {
+    margin: 130px 0 1rem 1rem;
+  }
+  .b-tit {
+    margin-left: 1.1rem;
+  }
+  .news .b-tit {
+    margin-left: 2rem;
+  }
+  .b-tit:before {
+    width: .4rem;
+    height: 1.5rem;
+    left: -1rem;
+  }
+  .cli-tab li {
+    font-size: 2.5rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: .5rem;
+  }
+  .info-box ul li {
+    height: 6rem;
+  }
+  .info-box ul li a img {
+    width: 8rem;
+  }
+  .info-list {
+    margin-bottom: 0;
+  }
+  .cli-tab_s {
+    padding-left: 2.6rem;
+  }
+  .cli-tab_s li:before {
+    width: 1.2rem;
+    height: 1.2rem;
+    left: 1.4rem;
+    top: 53% !important;
+  }
+  .operator ul li {
+    margin-bottom: 0;
+  }
+  .sj-rTbox {
+    padding-top: 0rem;
+    margin-bottom: 1rem;
+    height: 44%;
+  }
+  .cli-tab_s li {
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+  }
+  .info-sd li:not(:last-of-type):after {
+    width: 25rem;
+  }
+  .sj-rBbox {
+    height: 49.5%;
+    padding: .5rem 1rem 0;
+  }
+  .info-sd li:not(:last-of-type):after {
+    height: .01rem;
+    border-bottom: 0.04rem solid rgba(0, 219, 255, .15);
+  }
+  .info-list_s:not(:last-of-type):after {
+    width: .01rem;
+    border-bottom: 0.04rem solid rgba(0, 219, 255, .15);
+  }
+  .mod-close {
+    width: 3.2rem;
+    height: 3.32rem;
+    right: -2.6rem;
+    top: -2.8rem;
+  }
+  .mod-box-b .mod-close {
+    right: -2.4rem;
+    top: -2.8rem;
+  }
+  .sj-rBbox ul p {
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+    margin-bottom: 0;
+  }
+  .sj-rBbox ul li span {
+    font-size: 1.8rem;
+  }
+  .surbox {
+    width: 25%;
+    height: 100%;
+    margin-left: 30px;
+  }
+  .sj-lBox {
+    margin-left: 0;
+  }
+  .sj-cbox {
+    width: 45%;
+    margin-top: 2.2rem;
+  }
+  .sj-lr {
+    width: 100%;
+    height: 76%;
+  }
+  .info-list {
+    margin-bottom: .5rem;
+  }
+  .newsBox {
+    height: 76%;
+    margin-top: 130px;
+  }
+  .info-list_s li,
+  .info-sd li {
+    height: 2rem;
+    line-height: 2rem;
+  }
+  .info-sd li:last-of-type {
+    height: 8rem;
+    line-height: 8rem;
+  }
+  .sj-lbox ul li a {
+    font-size: 2.2rem;
+  }
+  .news-listbox {
+    padding: 0 1rem 1rem;
+  }
+  .sj-lbox ul li {
+    padding: 1rem 0;
+  }
+  .sj-lbox ul li a img {
+    height: 6rem;
+  }
+  .sj-lbox ul li a.pic-tit p {
+    height: 6rem;
+  }
+  .news-pic .news-tit p {
+    font-size: 2.5rem;
+  }
+  .inc-clibox {
+    height: 4rem;
+  }
+  .inc-clibox div:first-of-type {
+    width: 7rem;
+    line-height: 4rem;
+    font-size: 2.2rem;
+  }
+  .inc-clibox div:last-of-type p span:first-of-type {
+    margin-top: 1.1rem;
+  }
+  .inc-clibox div:last-of-type p .nk {
+    width: 1.2rem;
+    height: 1.6rem;
+  }
+  .inc-clibox div:last-of-type p .nk {
+    left: 2.7rem;
+  }
+  .inc-clibox div:last-of-type p .nk:nth-of-type(2) {
+    left: 4.2rem;
+  }
+  .inc-clibox div:last-of-type p .nk:nth-of-type(3) {
+    left: 5.7rem;
+  }
+  .legend p:before {
+    top: 13%;
+    left: -26%;
+  }
+  .inc-nav {
+    height: 6rem;
+    margin-bottom: 2rem;
+  }
+  .msg {
+    font-size: 4rem;
+  }
+  .btn {
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }.sr-ct-tb {
+    margin-top: 21.6%;
+  }
+  .legend {
+    font-size: 1.5rem;
+  }
+  .inc-nav li.current:before {
+    width: 20rem;
+    height: 10rem;
+    left: 24.5%;
+  }
+  .inc-tit:before {
+    height: 1.8rem;
+    left: -15%;
+    top: 60%;
+  }
+  .inc-charts {
+    height: 80.5%;
+  }
+  .k-tb {
+    font-size: 2.2rem;
+    height: 4rem;
+  }
+  .k-tb1 {
+    line-height: 4rem;
+  }
+  .k-hp {
+    margin-top: 1.5rem;
+  }
+  .k-tb2 {
+    font-size: 2.2rem;
+  }
+  .k-tb2 > div:last-of-type {
+    line-height: 4rem;
+  }
+  .k-tb2 > div:first-of-type ul {
+    line-height: 2rem;
+  }
+  .k-sf4 .k-tb2 div:last-of-type,
+  .kd-city .k-tb1 li:last-of-type,
+  .lh_jz {
+    line-height: 2rem;
+  }
+  .lh2 {
+    line-height: 4rem;
+  }
+  .logo_box{
+    width: 50rem;
+    height: 14rem;
+    left: 3rem;
+    top: 1.5rem;
+  }
+  .reg-list {
+    height: 41.5%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1600px) {
+  html,body {
+    font-size: 41.6% !important;
+  }
+  .lb-tit {
+    margin: 130px 0 1rem 1rem;
+  }
+  .rb-tit {
+    margin: 130px 0 1rem 1rem;
+  }
+  .b-tit {
+    margin-left: 1.1rem;
+  }
+  .news .b-tit {
+    margin-left: 2rem;
+  }
+  .b-tit:before {
+    width: .4rem;
+    height: 1.5rem;
+    left: -1rem;
+  }
+  .cli-tab li {
+    font-size: 2.5rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: .5rem;
+  }
+  .info-box ul li {
+    height: 6rem;
+  }
+  .info-box ul li a img {
+    width: 8rem;
+  }
+  .info-list {
+    margin-bottom: 0;
+  }
+  .cli-tab_s {
+    padding-left: 2.6rem;
+  }
+  .cli-tab_s li:before {
+    width: 1.2rem;
+    height: 1.2rem;
+    left: 1.4rem;
+    top: 53% !important;
+  }
+  .operator ul li {
+    margin-bottom: 0;
+  }
+  .sj-rTbox {
+    padding-top: 0rem;
+    margin-bottom: 1rem;
+    height: 44%;
+  }
+  .cli-tab_s li {
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+  }
+  .info-sd li:not(:last-of-type):after {
+    width: 25rem;
+  }
+  .sj-rBbox {
+    height: 49.5%;
+    padding: .5rem 1rem 0;
+  }
+  .info-sd li:not(:last-of-type):after {
+    height: .01rem;
+    border-bottom: 0.04rem solid rgba(0, 219, 255, .15);
+  }
+  .info-list_s:not(:last-of-type):after {
+    width: .01rem;
+    border-bottom: 0.04rem solid rgba(0, 219, 255, .15);
+  }
+  .mod-close {
+    width: 3.2rem;
+    height: 3.32rem;
+    right: -2.6rem;
+    top: -2.8rem;
+  }
+  .mod-box-b .mod-close {
+    right: -2.4rem;
+    top: -2.8rem;
+  }
+  .sj-rBbox ul p {
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+    margin-bottom: 0;
+  }
+  .sj-rBbox ul li span {
+    font-size: 1.8rem;
+  }
+  .surbox {
+    width: 25%;
+    height: 100%;
+    margin-left: 30px;
+  }
+  .sj-lBox {
+    margin-left: 0;
+  }
+  .sj-cbox {
+    width: 45%;
+    margin-top: 2.2rem;
+  }
+  .sj-lr {
+    width: 100%;
+    height: 76%;
+  }
+  .info-list {
+    margin-bottom: .5rem;
+  }
+  .newsBox {
+    height: 76%;
+    margin-top: 130px;
+  }
+  .info-list_s li,
+  .info-sd li {
+    height: 2rem;
+    line-height: 2rem;
+  }
+  .info-sd li:last-of-type {
+    height: 8rem;
+    line-height: 8rem;
+  }
+  .sj-lbox ul li a {
+    font-size: 2.2rem;
+  }
+  .news-listbox {
+    padding: 0 1rem 1rem;
+  }
+  .sj-lbox ul li {
+    padding: 1rem 0;
+  }
+  .sj-lbox ul li a img {
+    height: 6rem;
+  }
+  .sj-lbox ul li a.pic-tit p {
+    height: 6rem;
+  }
+  .news-pic .news-tit p {
+    font-size: 2.5rem;
+  }
+  .inc-clibox {
+    height: 4rem;
+  }
+  .inc-clibox div:first-of-type {
+    width: 7rem;
+    line-height: 4rem;
+    font-size: 2.2rem;
+  }
+  .inc-clibox div:last-of-type p span:first-of-type {
+    margin-top: 1.1rem;
+  }
+  .inc-clibox div:last-of-type p .nk {
+    width: 1.2rem;
+    height: 1.6rem;
+  }
+  .inc-clibox div:last-of-type p .nk {
+    left: 2.7rem;
+  }
+  .inc-clibox div:last-of-type p .nk:nth-of-type(2) {
+    left: 4.2rem;
+  }
+  .inc-clibox div:last-of-type p .nk:nth-of-type(3) {
+    left: 5.7rem;
+  }
+  .legend p:before {
+    top: 13%;
+    left: -26%;
+  }
+  .inc-nav {
+    height: 6rem;
+    margin-bottom: 2rem;
+  }
+  .msg {
+    font-size: 4rem;
+  }
+  .btn {
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+  .sr-ct-tb {
+    margin-top: 19.4%;
+  }
+  .legend {
+    font-size: 1.5rem;
+  }
+  .inc-nav li.current:before {
+    width: 20rem;
+    height: 10rem;
+    left: 24.5%;
+  }
+  .inc-tit:before {
+    height: 1.8rem;
+    left: -15%;
+    top: 60%;
+  }
+  .inc-charts {
+    height: 80.5%;
+  }
+  .k-tb {
+    font-size: 2.2rem;
+    height: 4rem;
+  }
+  .k-tb1 {
+    line-height: 4rem;
+  }
+  .k-hp {
+    margin-top: 1.5rem;
+  }
+  .k-tb2 {
+    font-size: 2.2rem;
+  }
+  .k-tb2 > div:last-of-type {
+    line-height: 4rem;
+  }
+  .k-tb2 > div:first-of-type ul {
+    line-height: 2rem;
+  }
+  .k-sf4 .k-tb2 div:last-of-type,
+  .kd-city .k-tb1 li:last-of-type,
+  .lh_jz {
+    line-height: 2rem;
+  }
+  .lh2 {
+    line-height: 4rem;
+  }
+  .logo_box{
+    width: 50rem;
+    height: 14rem;
+    left: 3rem;
+    top: 1.5rem;
+  }
+  .reg-list {
+    height: 41.5%;
+  }
+}
